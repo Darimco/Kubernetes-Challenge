@@ -32,3 +32,6 @@ kubectl get all -n development
 kubectl get rolebindings -n development
 
 kubectl config get-contexts
+
+##Switch to 'developer' context:
+kubectl config use-context developer
